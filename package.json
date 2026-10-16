@@ -1,0 +1,23 @@
+{
+  "name": "tuileme",
+  "productName": "推了么",
+  "version": "1.0.0",
+  "description": "AI 自动化推广与多端工作台",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite build && electron .",
+    "build": "vite build",
+    "start": "vite build && electron .",
+    "electron:dev": "electron ."
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.57.0",
+    "lucide-vue-next": "^1.0.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "electron": "^44.8.0",
+    "vite": "^3.0.7"
+  }
+}
